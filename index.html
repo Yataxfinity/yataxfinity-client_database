@@ -97,7 +97,7 @@
 <body>
     <div class="container">
         <h1>Yataxfinity - Client Database</h1>
-        <input type="text" id="phoneNumber" placeholder="Enter phone number" />
+        <input type="tel" id="phoneNumber" placeholder="Enter phone number" inputmode="numeric" pattern="[0-9]*" style="border: 1px solid #ccc; border-radius: 4px; padding: 10px; width: 90%; transition: border-color 0.3s;" onfocus="this.style.borderColor='#28a745';" onblur="this.style.borderColor='#ccc';" /> <br><br>
         <button onclick="redirectToClientPage()">View Details</button>
     </div>
 </body>
